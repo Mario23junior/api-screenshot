@@ -15,7 +15,6 @@ public class Printscreen {
 	private Integer y;
 	private Integer f;
 	private Integer t;
-	private Integer path;
 	private String format;
 
 	public Printscreen() {
@@ -60,14 +59,6 @@ public class Printscreen {
 
 	public void setT(Integer t) {
 		this.t = t;
-	}
-
-	public Integer getPath() {
-		return path;
-	}
-
-	public void setPath(Integer path) {
-		this.path = path;
 	}
 
 	public String getFormat() {
